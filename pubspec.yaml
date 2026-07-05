@@ -1,0 +1,17 @@
+name: core_navigation
+description: Decoupled navigation wrapper using GoRouter for Apple HIG design
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  go_router: ^12.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.4.4
+  build_runner: ^2.4.9
